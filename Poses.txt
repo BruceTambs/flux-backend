@@ -1,0 +1,102 @@
+Poses
+Version 0.2 — March 2026
+
+----------------------------------------
+
+Purpose
+    Define the character’s body position, action, and camera orientation for each generated image.
+    Poses are style‑agnostic and identity‑agnostic.
+
+----------------------------------------
+
+Orientation Options
+    All poses support the following camera orientations unless otherwise noted:
+        0° (Front)
+        45° to Camera
+        90° (Profile)
+        180° (Back)
+        45° Back to Camera
+
+----------------------------------------
+
+Pose Categories
+    Standing
+    Walking / Movement
+    Sitting
+    Gestures
+    Interaction with Objects
+    Group / Multi‑Person
+    Close‑Up / Portrait
+
+----------------------------------------
+Standing
+
+Standing — Neutral
+Standing — Confident
+
+----------------------------------------
+Walking / Movement
+
+Walking — Forward
+Walking — Side Profile
+
+----------------------------------------
+Sitting
+
+Sitting — At Desk
+
+----------------------------------------
+Gestures
+
+Gestures — Pointing
+Gestures — Thumbs Up
+Gestures — Hands in Pockets (Casual Chatting)
+Gestures — Thinking (Hand on Chin)
+Gestures — Explaining with Both Hands
+Gestures — Open‑Hand Welcome Gesture
+Gestures — Arms Crossed (Relaxed)
+Gestures — Arms Crossed (Serious)
+Gestures — Hands on Hips (Assertive)
+Gestures — Shrugging
+Gestures — Palms Up (Questioning)
+Gestures — One Hand Raised (Asking a Question)
+Gestures — Typing on a Laptop
+Gestures — Holding a Tablet with One Hand
+
+----------------------------------------
+Interaction with Objects
+
+Interaction — Holding Object
+
+----------------------------------------
+Group / Multi‑Person
+
+Group — Side‑by‑Side
+
+----------------------------------------
+Close‑Up / Portrait
+
+Portrait — Close‑Up
+
+----------------------------------------
+
+Defaults
+    If pose is unspecified:
+        Use Standing — Neutral.
+    If orientation is unspecified:
+        Use 0° (Front).
+    If expression is unspecified:
+        Use neutral or friendly.
+    If camera angle is unspecified:
+        Use straight‑on, eye‑level framing.
+
+----------------------------------------
+
+Rules
+    Poses must not alter character identity.
+    Poses must not override attire unless explicitly stated.
+    Poses should remain physically plausible unless the chosen style requires stylization.
+    Group poses must maintain consistent character proportions.
+    Orientation variants apply to all poses unless otherwise noted.
+
+----------------------------------------

@@ -1,0 +1,74 @@
+EmotionPresets
+Version 0.1 — March 2026
+
+----------------------------------------
+
+Purpose
+    Define the character’s facial expression in a consistent, reusable way.
+    Emotions are style-agnostic and do not alter character identity.
+    Emotions may be combined with any pose, background, or orientation.
+
+----------------------------------------
+
+Emotion Categories
+    Neutral / Baseline
+    Positive
+    Engaged / Attentive
+    Concerned / Negative
+    Strong Expressions
+
+----------------------------------------
+Neutral / Baseline
+
+Emotion — Neutral
+Emotion — Soft Smile
+
+----------------------------------------
+Positive
+
+Emotion — Friendly Smile
+Emotion — Big Smile
+Emotion — Laughing
+
+----------------------------------------
+Engaged / Attentive
+
+Emotion — Focused
+Emotion — Thinking
+Emotion — Curious
+Emotion — Listening Attentively
+
+----------------------------------------
+Concerned / Negative
+
+Emotion — Concerned
+Emotion — Confused
+Emotion — Worried
+Emotion — Mild Frustration
+
+----------------------------------------
+Strong Expressions
+
+Emotion — Surprised
+Emotion — Shocked
+Emotion — Determined
+Emotion — Assertive
+
+----------------------------------------
+
+Defaults
+    If emotion is unspecified:
+        Use Neutral.
+    If multiple emotions are selected:
+        Use the first listed unless otherwise instructed.
+
+----------------------------------------
+
+Rules
+    Emotions must not alter character identity.
+    Emotions must remain physically plausible for the chosen pose.
+    Emotions should not override style or lighting.
+    Emotions may be combined with any pose or background.
+    Emotions should remain appropriate to professional or instructional contexts unless explicitly requested otherwise.
+
+----------------------------------------

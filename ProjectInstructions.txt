@@ -1,0 +1,98 @@
+Project Instructions
+Version 0.2 — March 2026
+
+----------------------------------------
+
+Purpose
+    Generate a consistent set of character images using a reference photo, modular text-based instructions, and optional user-provided style reference images.
+
+----------------------------------------
+
+Inputs
+    Reference photo (required)
+    Style file (optional if a style reference image is provided)
+    Character details file
+    Pose file
+    Background file
+    User-uploaded style reference image (optional)
+
+----------------------------------------
+
+Order of Operations
+    Load all selected .txt modules.
+
+    Check for a user-uploaded style reference image.
+        If a style reference image is provided:
+            Use the image as the primary style source.
+            Bypass the text-based style module.
+        If no style reference image is provided:
+            Use the selected style module from ImageStyles.txt.
+
+    Apply defaults for any missing inputs.
+
+    Assemble the final prompt in this order:
+        1. Style (image-based or text-based)
+        2. Character details
+        3. Pose
+        4. Background
+        5. Global constraints
+
+    Insert the reference photo.
+
+    Generate one image per pose.
+
+    Save outputs to a folder or return them to the UI.
+
+----------------------------------------
+
+Prompt Assembly Rules
+    Keep language simple and directive.
+    Do not repeat details across modules.
+    Style governs rendering.
+    Character details override style when in conflict.
+    Pose instructions override character posture.
+    Background instructions override all environmental cues.
+    When a style reference image is provided, match its rendering approach, palette, lighting, and line quality.
+    Follow instructions exactly; do not improvise beyond the provided modules.
+
+----------------------------------------
+
+Defaults
+    If attire is missing, use the gender-based defaults in CharacterDetails.txt.
+    If emotion is unspecified, use Neutral.
+    If background is missing, use transparent.
+    If style is missing and no style reference image is provided, use "Clean Modern Illustration."
+    If lighting is missing, use soft, even lighting.
+    If camera angle is missing, use straight-on, eye-level framing.
+
+----------------------------------------
+
+Output Format
+    One image per pose.
+    Consistent proportions, lighting, and character identity.
+    Neutral, professional color palette unless specified.
+    No logos or branded elements.
+    No text in the image.
+
+----------------------------------------
+
+Global Constraints
+    Maintain character identity across all poses.
+    Avoid exaggerated anatomy unless the chosen style requires it.
+    Keep backgrounds low-contrast unless a detailed scene is requested.
+    Avoid extreme lighting, distortion, or stylized effects unless specified.
+    Keep the character centered and fully visible unless the pose requires otherwise.
+
+----------------------------------------
+
+Do Not Include
+    No text or lettering.
+    No watermarks.
+    No brand logos.
+    No unrealistic anatomy.
+    No dramatic shadows or high-contrast lighting unless explicitly requested.
+
+----------------------------------------
+
+Reserved for App Logic
+    (Space for future automation rules, metadata tags, or system-level instructions.)

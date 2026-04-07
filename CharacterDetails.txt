@@ -1,0 +1,207 @@
+Character Details
+Version 0.1 — March 2026
+
+----------------------------------------
+
+Purpose
+    Define the character’s identity, physical attributes, attire, and constants that must remain stable across all images.
+
+----------------------------------------
+
+Fields
+    Name
+        [Enter character name or leave blank]
+
+    Age Range
+        [Example: 20s, 30s, 40s, 50s]
+
+    Gender / Presentation
+        [Example: male, female, nonbinary, masc-presenting, femme-presenting]
+
+    Body Type
+        [Example: average, athletic, plus-size, slim, muscular]
+
+    Height (relative)
+        [Example: short, average, tall]
+
+    Skin Tone
+        [Describe tone; avoid hex codes unless needed]
+
+    Hair
+        Style:
+            [Example: short fade, long waves, buzz cut]
+        Color:
+            [Example: black, brown, blonde, gray]
+        Facial Hair:
+            [Optional]
+
+    Eyes
+        Color:
+            [Example: brown, blue, hazel]
+        Shape (optional):
+            [Example: round, almond]
+
+    Distinguishing Features
+        [Example: freckles, glasses, tattoos, scars, dimples]
+
+    Attire
+        Top:
+            [Example: t-shirt, button-down, hoodie, uniform]
+        Bottom:
+            [Example: jeans, slacks, shorts]
+        Footwear:
+            [Example: sneakers, boots]
+        Accessories:
+            [Example: watch, glasses, earrings]
+        Notes:
+            [Any attire constraints or must-haves]
+
+    Expression Defaults
+        [Example: friendly, focused, neutral, confident]
+
+    Camera / Framing Defaults
+        Angle:
+            [Example: straight-on, 3/4 view]
+        Distance:
+            [Example: mid-shot, full-body, close-up]
+
+----------------------------------------
+
+Defaults
+    If any field is left blank:
+        Use neutral, realistic values.
+        Use attire appropriate to the context of the pose or background.
+        Use a friendly, focused expression.
+        Use straight-on, eye-level framing.
+
+----------------------------------------
+
+Rules
+    Character details override style when they conflict.
+    Do not alter identity across poses.
+    Do not change attire unless explicitly instructed.
+    Keep anatomy realistic unless the chosen style requires stylization.
+
+----------------------------------------
+
+
+How to Use Occupation Presets
+    These presets are optional.
+    Use them only if you want to quickly define attire and accessories for a common eLearning role.
+    If you choose a preset:
+        It will pre-fill attire, accessories, and a few identity cues.
+        You may edit any field after applying the preset.
+    If you do not choose a preset:
+        Fill in the Character Details fields manually.
+        Defaults will apply wherever fields are left blank.
+
+
+
+----------------------------------------
+
+Occupation Presets
+    Use these presets to quickly define attire, accessories, and identity cues for common eLearning personas. 
+    These presets override defaults but can be edited or expanded by the user.
+
+----------------------------------------
+
+Construction Worker
+    Attire:
+        High‑visibility vest, work boots, durable pants, optional tool belt.
+    Accessories:
+        Hard hat, safety glasses, gloves.
+    Notes:
+        Prioritize realistic PPE and worksite‑appropriate clothing.
+
+----------------------------------------
+
+Office Professional
+    Attire:
+        Button‑down shirt or blouse, slacks or skirt, business‑casual shoes.
+    Accessories:
+        Laptop, ID badge, simple jewelry.
+    Notes:
+        Neutral, professional palette.
+
+----------------------------------------
+
+Customer Service Representative
+    Attire:
+        Polo or branded shirt, headset, name tag.
+    Accessories:
+        Minimal; focus on headset as primary identifier.
+    Notes:
+        Friendly, approachable expression.
+
+----------------------------------------
+
+Healthcare Worker
+    Attire:
+        Scrubs or lab coat, comfortable shoes.
+    Accessories:
+        Stethoscope, badge, optional clipboard.
+    Notes:
+        Clean, clinical color palette.
+
+----------------------------------------
+
+Retail Associate
+    Attire:
+        Branded shirt or apron, comfortable pants.
+    Accessories:
+        Name tag, handheld scanner or tablet.
+    Notes:
+        Emphasize customer‑facing friendliness.
+
+----------------------------------------
+
+Warehouse / Logistics Worker
+    Attire:
+        High‑visibility vest, durable pants, steel‑toe boots.
+    Accessories:
+        Gloves, handheld scanner, pallet jack nearby if background allows.
+    Notes:
+        Practical, movement‑ready clothing.
+
+----------------------------------------
+
+Hospitality Staff
+    Attire:
+        Black slacks, white shirt, apron or vest.
+    Accessories:
+        Notepad, tray, or towel depending on role.
+    Notes:
+        Clean, polished appearance.
+
+----------------------------------------
+
+Teacher / Instructor
+    Attire:
+        Smart‑casual clothing: cardigan, blouse, button‑down, or sweater.
+    Accessories:
+        Books, tablet, or whiteboard markers.
+    Notes:
+        Warm, approachable expression.
+
+----------------------------------------
+
+IT / Technical Support
+    Attire:
+        Casual or business‑casual: t‑shirt, hoodie, or button‑down.
+    Accessories:
+        Laptop, headset, or tools depending on context.
+    Notes:
+        Neutral, modern palette.
+
+----------------------------------------
+
+Manager / Supervisor
+    Attire:
+        Business‑casual or business‑formal depending on context.
+    Accessories:
+        Clipboard, tablet, or ID badge.
+    Notes:
+        Confident, composed expression.
+
+----------------------------------------
+

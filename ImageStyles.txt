@@ -1,0 +1,134 @@
+Image Styles
+Version 0.1 — March 2026
+
+----------------------------------------
+
+Clean Modern Illustration
+    Description
+        A polished, professional illustration style with smooth shapes and balanced detail.
+    Rendering rules
+        Use clean edges, simplified forms, and controlled shading.
+    Lighting rules
+        Use soft, even lighting with minimal contrast.
+    Color rules
+        Use a neutral, modern palette with subtle gradients.
+    Line/texture rules
+        Use thin, consistent linework or no visible lines.
+    Tags
+        clean, modern, professional
+
+----------------------------------------
+
+Semi-Realistic Portrait
+    Description
+        A lightly stylized portrait with realistic proportions and subtle artistic interpretation.
+    Rendering rules
+        Use natural anatomy, soft shading, and moderate detail.
+    Lighting rules
+        Use natural, diffused lighting with gentle highlights.
+    Color rules
+        Use realistic skin tones and controlled saturation.
+    Line/texture rules
+        Use minimal linework; rely on shading for form.
+    Tags
+        portrait, semi-realistic
+
+----------------------------------------
+
+Painterly Digital
+    Description
+        A textured, brushstroke-driven digital painting style.
+    Rendering rules
+        Use visible brushwork, layered strokes, and painterly blending.
+    Lighting rules
+        Use dramatic but controlled lighting with soft falloff.
+    Color rules
+        Use rich, blended colors with warm/cool contrast.
+    Line/texture rules
+        Use textured edges and soft transitions.
+    Tags
+        painterly, textured
+
+----------------------------------------
+
+Flat Vector
+    Description
+        A crisp, geometric vector style with no shading.
+    Rendering rules
+        Use flat shapes, clean geometry, and no gradients.
+    Lighting rules
+        No lighting effects.
+    Color rules
+        Use bold, flat colors with strong contrast.
+    Line/texture rules
+        Use uniform stroke weight or no outlines.
+    Tags
+        vector, flat, geometric
+
+----------------------------------------
+
+Comic Inked
+    Description
+        A bold, inked comic style with expressive linework.
+    Rendering rules
+        Use strong outlines, dynamic shapes, and stylized anatomy.
+    Lighting rules
+        Use high-contrast lighting with clear shadow shapes.
+    Color rules
+        Use saturated colors with simple shading.
+    Line/texture rules
+        Use varied line weight and ink textures.
+    Tags
+        comic, inked
+
+----------------------------------------
+
+User-Provided Style Reference
+    Description
+        Use the uploaded image as the primary style source.
+    Rendering rules
+        Match the rendering approach, detail level, and overall aesthetic of the reference image.
+    Lighting rules
+        Match the lighting style, intensity, and direction shown in the reference image.
+    Color rules
+        Match the palette, saturation, and tonal balance of the reference image.
+    Line/texture rules
+        Match the line quality, texture, and surface treatment of the reference image.
+    Tags
+        style-reference, image-based
+
+----------------------------------------
+
+Photorealistic Construction
+    Description
+        A realistic, documentary-style construction environment with accurate materials, lighting, and safety gear.
+    Rendering rules
+        Use true-to-life proportions, natural skin textures, and authentic construction equipment and PPE. Preserve realistic fabric folds, tool details, and environmental grit.
+    Lighting rules
+        Use natural outdoor or indoor worksite lighting with soft shadows and realistic highlights. Match the directional light typical of open construction zones.
+    Color rules
+        Use accurate, high-visibility safety colors (orange, yellow, reflective silver) and natural tones for skin, clothing, and materials. Maintain realistic saturation and contrast.
+    Line/texture rules
+        No visible linework. Use photographic texture detail for clothing, tools, machinery, and surfaces.
+    Tags
+        photorealistic, construction, safety-gear, documentary
+
+----------------------------------------
+
+
+Retro Pulp Comic (1950s Sci-Fi)
+    Description
+        A vintage mid‑century sci‑fi comic style with bold colors, dramatic poses, and classic pulp adventure energy.
+    Rendering rules
+        Use exaggerated action, expressive character gestures, and dynamic compositions. Include retro space suits, ray guns, rockets, and alien landscapes when relevant.
+    Lighting rules
+        Use high‑contrast lighting with sharp highlights and stylized shadow shapes typical of vintage comic covers.
+    Color rules
+        Use bold, saturated primary colors with limited palettes. Emphasize flat color blocks, simple gradients, and retro print hues.
+    Line/texture rules
+        Use strong black ink outlines, varied line weight, and subtle halftone or print‑texture effects. Preserve the look of classic comic printing.
+    Tags
+        retro, pulp, comic, sci-fi, vintage, inked
+
+----------------------------------------
+

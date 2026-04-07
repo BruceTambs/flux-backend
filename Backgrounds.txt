@@ -1,0 +1,142 @@
+Backgrounds
+Version 0.2 — March 2026
+
+----------------------------------------
+
+Purpose
+    Define the environment or setting behind the character.
+    Backgrounds should be style‑agnostic and pose‑agnostic.
+    They provide context, not narrative.
+
+----------------------------------------
+
+Background Reference Image (Optional)
+    If the user uploads a background reference image:
+        Use it as the primary source for environment, lighting, perspective, and spatial layout.
+        Match the overall look, depth, and composition of the uploaded image.
+        Bypass the text-based background module.
+        Do not reinterpret or alter the environment unless explicitly instructed.
+    If no background reference image is provided:
+        Use the selected background from the Backgrounds list.
+
+----------------------------------------
+Background Description (Optional)
+    If the user provides a written description of the background:
+        Use the description as the primary source for environment, lighting, perspective, and spatial layout.
+        Interpret the description literally and avoid adding elements not mentioned.
+        Bypass the text-based background module.
+    If both a description and a background reference image are provided:
+        The background reference image takes priority.
+
+----------------------------------------
+Background Categories
+    Workplace — Office
+    Workplace — Industrial / Construction
+    Workplace — Retail / Customer Service
+    Workplace — Healthcare
+    Workplace — Education / Training
+    Technology / Digital
+    Neutral / Minimal
+    Outdoor
+    Home / Residential
+
+----------------------------------------
+Workplace — Office
+
+Office — Open Workspace
+Office — Private Office
+Office — Conference Room
+Office — Break Room
+Office — Reception Area
+
+----------------------------------------
+Workplace — Industrial / Construction
+
+Industrial — Warehouse Interior
+Industrial — Factory Floor
+Construction — Worksite Exterior
+Construction — Worksite Interior
+Utility — Equipment Area
+
+----------------------------------------
+Workplace — Retail / Customer Service
+
+Retail — Store Interior
+Retail — Checkout Area
+Hospitality — Front Desk
+Hospitality — Dining Area
+
+----------------------------------------
+Restaurant — Dining Room (Casual)  
+Restaurant — Dining Room (Upscale)  
+Restaurant — Kitchen Line / Back of House  
+Restaurant — Host Stand / Entry Area  
+Restaurant — Bar Area / Counter Service
+Workplace — Healthcare
+----------------------------------------
+Healthcare — Exam Room
+Healthcare — Nurse Station
+Healthcare — Hospital Hallway
+Healthcare — Lab Environment
+
+----------------------------------------
+Workplace — Education / Training
+
+Education — Classroom
+Education — Lecture Hall
+Education — Workshop / Training Room
+Education — Whiteboard / Chalkboard Wall
+
+----------------------------------------
+Technology / Digital
+
+Digital — Abstract Interface
+Digital — Dashboard / Data Visualization
+Digital — Server Room
+Digital — Futuristic Tech Environment
+
+----------------------------------------
+Neutral / Minimal
+
+Neutral — Soft Gradient
+Neutral — Solid Color
+Neutral — Minimal Studio
+Neutral — Blurred Environment
+
+----------------------------------------
+Outdoor
+
+Outdoor — Urban Street
+Outdoor — Park / Green Space
+Outdoor — Building Exterior
+Outdoor — Construction Exterior
+
+----------------------------------------
+Home / Residential
+
+Home — Living Room
+Home — Kitchen
+Home — Home Office
+Home — Dining Area
+
+----------------------------------------
+
+Defaults
+    If background is unspecified:
+        Use Neutral — Soft Gradient.
+    If lighting is unspecified:
+        Use soft, even lighting appropriate to the environment.
+    If depth is unspecified:
+        Use shallow depth of field for clarity.
+
+----------------------------------------
+
+Rules
+    Backgrounds must not alter character identity.
+    Backgrounds must not override pose or attire.
+    Backgrounds should remain contextually appropriate to the character’s role.
+    Avoid clutter unless explicitly requested.
+    Keep perspective consistent with the chosen pose orientation.
+    When a background reference image is provided, it overrides all text-based background selections.
+
+----------------------------------------

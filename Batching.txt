@@ -1,0 +1,103 @@
+Batching
+Version 0.1 — March 2026
+
+----------------------------------------
+
+Purpose
+    Define how many images to generate, which pose categories to include, and how outputs are packaged.
+    Batching controls quantity and looping behavior only.
+    It does not override character, pose, background, or style logic.
+
+----------------------------------------
+
+Batch Modes
+    Entire Set
+        Generate all poses in all categories.
+        Generate all orientation variants for each pose.
+        Use the selected character, style, and background logic.
+        Output a complete character library.
+
+    Partial Set
+        User selects one or more pose categories:
+            Standing
+            Gestures
+            Sitting
+            Walking / Movement
+            Interaction with Objects
+            Group / Multi-Person
+            Portrait
+        Generate all poses within the selected categories.
+        Generate all orientation variants for each pose.
+
+    Single Image
+        User selects:
+            One pose
+            One orientation
+            One background (or reference image)
+        Generate a single image only.
+
+----------------------------------------
+
+Batch Logic
+    Entire Set:
+        Loop through all pose categories.
+        Loop through all poses within each category.
+        Loop through all orientation variants.
+        Assemble prompts using ProjectInstructions.txt.
+        Generate one image per combination.
+
+    Partial Set:
+        Loop through only the selected categories.
+        Loop through all poses within each selected category.
+        Loop through all orientation variants.
+        Assemble prompts using ProjectInstructions.txt.
+
+    Single Image:
+        Assemble a single prompt using ProjectInstructions.txt.
+        Generate one image.
+
+----------------------------------------
+
+Output Packaging
+    Entire Set:
+        Package all generated images into a single ZIP file.
+        Organize images into folders by category.
+        Include a manifest text file listing all poses and orientations.
+
+    Partial Set:
+        Package all generated images into a single ZIP file.
+        Organize images into folders based on the selected categories.
+
+    Single Image:
+        Output a single image file with no ZIP packaging.
+
+----------------------------------------
+
+Naming Conventions
+    Use consistent, descriptive filenames:
+        [CharacterName]_[PoseCategory]_[PoseName]_[Orientation].png
+
+    Examples:
+        Jordan_Standing_Neutral_0.png
+        Jordan_Gestures_Thinking_45Back.png
+
+----------------------------------------
+
+Defaults
+    If batch mode is unspecified:
+        Use Single Image.
+    If categories are unspecified in Partial Set:
+        Prompt the user to select at least one category.
+    If orientation is unspecified in Single Image:
+        Use 0° (Front).
+
+----------------------------------------
+
+Rules
+    Batch mode must not override character identity.
+    Batch mode must not override pose, background, or style logic.
+    Batch mode only controls quantity, looping, and output packaging.
+    Orientation variants apply to all poses unless otherwise noted.
+    ZIP packaging applies only to batch modes (Entire Set and Partial Set).
+
+----------------------------------------
