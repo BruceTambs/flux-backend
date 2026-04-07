@@ -1,6 +1,5 @@
-diffusers>=0.27.0
-transformers>=4.39.0
-accelerate>=0.28.0
-safetensors
-Pillow
-torch
+fastapi
+uvicorn
+httpx
+pydantic
+python-dotenv
